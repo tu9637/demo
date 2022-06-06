@@ -1,0 +1,16 @@
+.sidebar {
+  height: 100%;
+  background-color: #17191e;
+  :global {
+   .btnBox{
+     display: flex;
+     margin-bottom: 16px;
+     justify-content: center;
+     .btn{
+      background-color: #1d2327;
+      width: 100%;
+      border: 0;
+     }
+   }
+  }
+}
